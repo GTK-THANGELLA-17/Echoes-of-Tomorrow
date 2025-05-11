@@ -32,7 +32,7 @@ const CapsuleDetail: React.FC = () => {
   // Store the initial time difference to calculate progress
   const [initialTimeDiff] = useState<number>(timerDate - Date.now());
   
-  const destinationUrl = "https://my-wishes-to-you.vercel.app/";
+  const destinationUrl = "https://wishes-to-you.vercel.app/";
   const birthdayMessage = "Happy Birthday! 🎂✨ May your special day be filled with joy, laughter, and all the wonderful things you deserve!";
 
   useEffect(() => {
