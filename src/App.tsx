@@ -37,7 +37,7 @@ const App = () => {
           <Sonner />
           <BrowserRouter>
             <Routes>
-              <Route path="/" element={<Navigate to="/capsule/birthday" replace />} />
+              <Route path="/" element={<CapsuleDetailPage />} />
               <Route path="/create" element={<CreatePage />} />
               <Route path="/capsule/:id" element={<CapsuleDetailPage />} />
               <Route path="*" element={<NotFound />} />
